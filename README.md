@@ -1,16 +1,14 @@
-## Hi there 👋
-
-<!--
-**EmanuelAtallah/EmanuelAtallah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+## Hi, I'm Emanuel Atallah 👋
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 Game Programming / Bus Boy at a restaurant
+- 🌱 Currently learning: [C#]
+- (https://learn.microsoft.com/en-us/dotnet/csharp/)
+- 📫 Reach me: [manoata@outlook.com]
+- (mailto:manoata@outlook.com) / [LinkedIn]
+- (https://www.linkedin.com/in/emanuel-atallah-b0bb00388/)
+
+## ⚙My Tech Stack
+C# • MarkDown • HTML • CSS • JavaScript
+## 🛠 My Favorite Tools
+VsCode • PowerShell
