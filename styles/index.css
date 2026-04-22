@@ -47,11 +47,17 @@ img {
     .languagesandtoolstext {
         display: flex;
     }
+    .image2 {
+        width: 50%;
+    }
+
 
 }
 
 @media (min-width: 1025px)
 {
-
+    .image2 {
+        width: 75%;
+    }
 
 }
