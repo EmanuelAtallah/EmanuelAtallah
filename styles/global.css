@@ -1,4 +1,12 @@
 @font-face {
   font-family: "Roboto";
-  src: url("../assets/fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: "Roboto";
+    text-align: center;
+}
+* {
+    background-color: lightblue;
 }

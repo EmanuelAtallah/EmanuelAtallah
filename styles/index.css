@@ -1,0 +1,57 @@
+.aboutMe{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.LanguagesAndTools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 75%;
+    height: auto;
+}
+
+@media (min-width: 768px) 
+{
+    .aboutMe {
+        flex-direction: row-reverse;
+    }
+    .LanguagesAndTools {
+        flex-direction: row-reverse;
+    }
+    .CV {
+        flex-direction: row-reverse;
+    }
+    .cvtext {
+        display: flex;
+        flex-direction: column;
+    }
+    .languages {
+        display: flex;
+        flex-direction: column;
+    }
+    .tools {
+        display: flex;
+        flex-direction: column;
+    }
+    .languagesandtoolstext {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 1025px)
+{
+
+
+}
