@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
 }
-.CV {
+.Projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,19 @@ img {
 header {
     position: sticky;
     top: 0;
-    background-color: firebrick;
+    background-color:cornflowerblue;
+}
+.tictactoe {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+}
+.pacman {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
 }
 
 @media (min-width: 768px) 
@@ -33,13 +45,6 @@ header {
     }
     .LanguagesAndTools {
         flex-direction: row-reverse;
-    }
-    .CV {
-        flex-direction: row-reverse;
-    }
-    .cvtext {
-        display: flex;
-        flex-direction: column;
     }
     .languages {
         display: flex;
@@ -55,13 +60,26 @@ header {
     .image2 {
         width: 50%;
     }
-
-
+    .cvimg{
+        width: 50%;
+    }
+    .tictactoe{
+        flex-direction: row;
+    }
+    .pacman{
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 1025px)
 {
     .image2 {
+        width: 75%;
+    }
+    .cvimg{
+        width: 75%;
+    }
+        .projectimgs {
         width: 75%;
     }
 
