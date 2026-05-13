@@ -37,6 +37,18 @@ header {
     align-items: center;
     padding: 1rem;
 }
+.back-button {
+  display: inline-block;
+  padding: 0.625rem 0.938rem;
+  background-color: #f4f4f4;
+  border: 0.063rem solid #ccc;
+  border-radius: 0.313rem;
+  text-decoration: none;
+  color: #333;
+}
+.back-button:hover {
+  background-color: #e0e0e0;
+}
 
 @media (min-width: 768px) 
 {
@@ -80,31 +92,22 @@ header {
     .projectimgs {  
         width: 75%;
     }
-    .pacman {
-        text-decoration: none;
-        color: inherit;
-        display: inline-block;
-        transition: transform 0.2s;
+    .ttt {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
-    .pacman:hover {
-        transform: scale(1.02);
+    .pacmansite {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
-    .pacman img {
-        width: 100%;
-        height: auto;
+    .tttimgs {
+        width: 50%;
     }
-    .tictactoe {
-        text-decoration: none;
-        color: inherit;
-        display: inline-block;
-        transition: transform 0.2s;
+    .pacmanimgs {
+        width: 50%;
     }
-    .tictactoe:hover {
-        transform: scale(1.02);
-    }
-    .tictactoe img {
-        width: 100%;
-        height: auto;
-    }
-
 }
