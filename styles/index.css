@@ -92,4 +92,22 @@ header {
     .projectimgs {  
         width: 75%;
     }
+    .ttt {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .pacmansite {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .tttimgs {
+        width: 50%;
+    }
+    .pacmanimgs {
+        width: 50%;
+    }
 }
