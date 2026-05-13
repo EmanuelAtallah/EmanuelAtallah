@@ -77,8 +77,34 @@ header {
     .cvimg{
         width: 75%;
     }
-    .projectimgs {
+    .projectimgs {  
         width: 75%;
+    }
+    .pacman {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        transition: transform 0.2s;
+    }
+    .pacman:hover {
+        transform: scale(1.02);
+    }
+    .pacman img {
+        width: 100%;
+        height: auto;
+    }
+    .tictactoe {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        transition: transform 0.2s;
+    }
+    .tictactoe:hover {
+        transform: scale(1.02);
+    }
+    .tictactoe img {
+        width: 100%;
+        height: auto;
     }
 
 }
